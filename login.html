@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css.map">
+    <title>Login</title>
+</head>
+<body>
+<header class="header">
+    
+        <a href="index.html"><div class="logo">Th3 New Dawn</div></a>
+        <ul>
+            <a href="index.html"><li class="active">Home</li></a>
+        </ul>
+    </header>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"required>
+          </div>
+          Do you not have an account?<a href="register.html">Register</a>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" name="pwd" required>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember"> Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-dark" id="signIn">Sign In</button>
+        </form>
+      </div>
+
+<script src="js/all.min.js"></script>
+<script src="js/login.js"></script>
+<script src="js/index.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js.map"></script>
+</body>
+</html>
